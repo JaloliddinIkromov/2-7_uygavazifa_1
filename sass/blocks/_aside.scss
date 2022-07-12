@@ -1,0 +1,89 @@
+.section__aside__blog{ 
+margin: 20px 20px 50px 20px;
+background-color: $aside-bg-color; 
+background-image: url("../images/pisoc-bg.png"); 
+background-repeat: no-repeat; 
+background-size: 100% 100%; 
+
+} 
+.aside__grid{ 
+padding: 50px 0px 100px ;
+margin: 0 auto;
+}
+.aside__inner{ 
+ display: flex; 
+ align-items: center; 
+ justify-content: space-between; 
+
+} 
+.aside__title{ 
+ margin: 0;
+ margin-bottom: 80px; 
+ font-weight: 700;
+font-size: 50px;
+line-height: 59px;
+text-align: center;
+font-variant: small-caps;
+color: #FFFFFF;
+} 
+
+.aside__content{ 
+width: 466px; 
+height: 496px;  
+background-color: #FFFFFF;
+
+
+} 
+.aside__content:nth-child(1){   
+    margin-right: 20px;   
+    padding: 170px 240px 40px 20px;
+    background-image: url("../images/carta-1.png");
+    background-repeat: no-repeat; 
+    background-size: 120px 143px ;
+    background-position: calc(50% + 70px) calc(0% + 70px); 
+    
+}  
+.aside__content:nth-child(2){  
+    margin-right: 20px; 
+    padding: 187px 265px 40px 20px;
+    background-image: url("../images/carta-2.png");
+    background-repeat: no-repeat; 
+    background-size: 120px 120px ;
+    background-position: calc(50% + 80px) calc(0% + 60px); 
+    
+}  
+
+.aside__content:nth-child(3){  
+    padding: 217px 220px 40px 20px;
+    background-image: url("../images/carta-3.png");
+    background-repeat: no-repeat; 
+    background-size: 120px 107px ;
+    background-position: calc(50% + 70px) calc(0% + 70px); 
+ 
+}
+.aside__content__title{ 
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    font-variant: small-caps;
+    color: #333333;
+
+} 
+.aside__content__list{ 
+ list-style: none; 
+ padding-left: 0;
+} 
+
+.aside__content__item{ 
+margin-bottom: 12px;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #333333;
+} 
+.aside__link{ 
+text-decoration: none; 
+color:#333333 ;
+}

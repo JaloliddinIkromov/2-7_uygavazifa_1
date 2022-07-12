@@ -1,0 +1,31 @@
+ 
+ 
+ 
+ .service__blog{   
+  margin: 160px 20px 20px 20px; 
+ background-color: $service-bg-color; 
+  background-image: url("../images/coffe-qizlar.png") ,url("../images/pisoc-bg.png"); 
+  background-repeat: no-repeat,no-repeat; 
+  background-size: 550px 500px ,100% 100%; 
+  background-position: calc(50% + 420px) calc(50% + -100px), center center;
+} 
+.service__title{  
+  width: 639px;  
+ padding: 100px 0px 118px 113px; 
+ 
+} 
+.service__subtitle{ 
+    margin: 0;  
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+} 
+.service__text{  
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}

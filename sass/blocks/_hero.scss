@@ -1,0 +1,42 @@
+.hero__blog{ 
+  background-color: $hero-bg-color;  
+  background-image: url("../images/bg-barg.png"); 
+  background-repeat: no-repeat; 
+  background-size: 290px 450px; 
+  background-position: calc(50% + -630px ) calc(50% + -90px);
+  margin: 20px 20px 0px 20px; 
+  
+} 
+
+.hero__inner{  
+ padding: 160px 64px 200px 165px;   
+display: flex; 
+align-items: center;
+justify-content: space-between;
+} 
+.hero__inner__img{ 
+
+width: 360px; 
+height: 364px;
+} 
+.hero__inner__title{ 
+ width: 626px;
+} 
+.hero__inner__subtitle{ 
+ margin: 0; 
+ margin-bottom: 24px; 
+ font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+font-variant: small-caps;
+color: #000000;
+} 
+
+.hero__inner__text{ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+
+}
